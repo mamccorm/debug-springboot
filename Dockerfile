@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard-private/jre-fips:openjdk-17-dev
+FROM UPDATE-ME/jre-fips:openjdk-17-dev
 
 USER 0
 ENV LANG C.UTF-8
