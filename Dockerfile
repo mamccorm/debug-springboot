@@ -7,5 +7,3 @@ ENV JAVA_HOME=/usr/lib/jvm/default-jvm
 COPY SpringHelloWorld/target/SpringHelloWorld-1.0-SNAPSHOT.jar /home/build/app.jar
 
 ENTRYPOINT ["java", "-jar", "/home/build/app.jar"]
-
-
